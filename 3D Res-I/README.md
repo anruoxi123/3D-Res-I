@@ -7,7 +7,8 @@ For preprocessing, run ./DeepLung/prepare.py. The parameters for prepare.py is i
 
 Use run_training.sh to train the detector. You can use 3in1 or 3in1Dropout net model by revising --model attribute. After training and test are done, use the ./evaluationScript/frocwrtdetpepchluna16.py to validate the epoch used for test. After that, collect all the 10 folds' prediction, use ./evaluationScript/noduleCADEvaluationLUNA16.py to get the FROC for all 10 folds. You can directly run noduleCADEvaluationLUNA16.py, and get the performance in the paper.
 
-The performances on each fold are follows£º
+The performances on each fold are follows:
+3D Res-I/evaluationScript/annotations/3D Res-I.csv
 
 
 
